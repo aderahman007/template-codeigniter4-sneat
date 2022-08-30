@@ -115,11 +115,16 @@ class UsersController extends BaseController
                 'email' => [
                     'rules' => 'required|is_unique[users.email]|valid_email',
                     'errors' => [
+<<<<<<< HEAD
                         'required' => 'Email harus di isi',
+=======
+                        'required' => 'email harus di isi',
+>>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
                         'is_unique' => 'Email sudah digunakan',
                         'valid_email' => 'Email tidak valid',
                     ]
                 ],
+<<<<<<< HEAD
                 'telepon' => [
                     'rules' => 'required|numeric',
                     'errors' => [
@@ -127,6 +132,8 @@ class UsersController extends BaseController
                         'numeric' => 'Telepon harus berupa angka',
                     ]
                 ],
+=======
+>>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
                 'password' => [
                     'rules' => 'required',
                     'errors' => [
@@ -167,7 +174,10 @@ class UsersController extends BaseController
                         'nama' => $this->validation->getError('nama'),
                         'username' => $this->validation->getError('username'),
                         'email' => $this->validation->getError('email'),
+<<<<<<< HEAD
                         'telepon' => $this->validation->getError('telepon'),
+=======
+>>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
                         'password' => $this->validation->getError('password'),
                         'ulangi_password' => $this->validation->getError('ulangi_password'),
                         'hak_akses' => $this->validation->getError('hak_akses'),
@@ -190,7 +200,10 @@ class UsersController extends BaseController
                     'nama' => $this->request->getVar('nama'),
                     'username' => $this->request->getVar('username'),
                     'email' => $this->request->getVar('email'),
+<<<<<<< HEAD
                     'telepon' => $this->request->getVar('telepon'),
+=======
+>>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
                     'password' => password_hash($this->request->getVar('password'), PASSWORD_BCRYPT),
                     'hak_akses' => $this->request->getVar('hak_akses'),
                     'status' => $this->request->getVar('status'),
@@ -264,6 +277,7 @@ class UsersController extends BaseController
                         'valid_email' => 'Email tidak valid',
                     ]
                 ],
+<<<<<<< HEAD
                 'telepon' => [
                     'rules' => 'required|numeric',
                     'errors' => [
@@ -271,6 +285,8 @@ class UsersController extends BaseController
                         'numeric' => 'Telepon harus berupa angka',
                     ]
                 ],
+=======
+>>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
                 'ulangi_password' => [
                     'rules' => 'matches[password]',
                     'errors' => [
@@ -304,7 +320,10 @@ class UsersController extends BaseController
                         'nama' => $this->validation->getError('nama'),
                         'username' => $this->validation->getError('username'),
                         'email' => $this->validation->getError('email'),
+<<<<<<< HEAD
                         'telepon' => $this->validation->getError('telepon'),
+=======
+>>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
                         'hak_akses' => $this->validation->getError('hak_akses'),
                         'status' => $this->validation->getError('status'),
                         'ulangi_password' => $this->validation->getError('ulangi_password'),
@@ -331,7 +350,10 @@ class UsersController extends BaseController
                     'nama' => $this->request->getVar('nama'),
                     'username' => $this->request->getVar('username'),
                     'email' => $this->request->getVar('email'),
+<<<<<<< HEAD
                     'telepon' => $this->request->getVar('telepon'),
+=======
+>>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
                     'password' => $password,
                     'hak_akses' => $this->request->getVar('hak_akses'),
                     'status' => $this->request->getVar('status'),

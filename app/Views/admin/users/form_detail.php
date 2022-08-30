@@ -35,12 +35,15 @@
                     </div>
                 </div>
                 <div class="row mb-2">
+<<<<<<< HEAD
                     <label class="col-sm-2 col-form-label" for="telepon">Telepon</label>
                     <div class="col-sm-10">
                         <h6 class="card-title text-primary"><?= $users['telepon']; ?></h6>
                     </div>
                 </div>
                 <div class="row mb-2">
+=======
+>>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
                     <label class="col-sm-2 col-form-label" for="password">Password</label>
                     <div class="col-sm-10">
                         <h6 class="card-title text-primary">************</h6>

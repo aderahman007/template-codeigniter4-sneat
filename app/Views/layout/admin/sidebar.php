@@ -19,13 +19,44 @@
                 <div data-i18n="Analytics">Dashboard</div>
             </a>
         </li>
+<<<<<<< HEAD
         
         <!-- Menu  -->
+=======
+        <!-- Wisata -->
+
+        <li class="menu-header small text-uppercase">
+            <span class="menu-header-text">Setting Maps Wisata</span>
+        </li>
+
+        <li class="menu-item  <?= (isset($active) && $active === 'maps') ? 'active' : '' ?>">
+            <a href="<?= site_url('admin/maps') ?>" class="menu-link">
+                <i class='menu-icon tf-icons bx bxs-map-pin'></i>
+                <div data-i18n="Analytics">Maps Wisata</div>
+            </a>
+        </li>
+
+        <li class="menu-item  <?= (isset($active) && $active === 'manajemen maps') ? 'active' : '' ?>">
+            <a href="<?= site_url('admin/maps/manajemen-maps') ?>" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-cog"></i>
+                <div data-i18n="Analytics">Manajemen Maps</div>
+            </a>
+        </li>
+>>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
 
         <!-- Master data -->
         <li class="menu-header small text-uppercase">
             <span class="menu-header-text">Master Data</span>
         </li>
+<<<<<<< HEAD
+=======
+        <li class="menu-item <?= (isset($active) && $active === 'kategori') ? 'active' : '' ?>">
+            <a href="<?= site_url('admin/kategori') ?>" class="menu-link">
+                <i class="menu-icon tf-icons bx bxs-category"></i>
+                <div data-i18n="Analytics">Kategori Wisata</div>
+            </a>
+        </li>
+>>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
         <li class="menu-item <?= (isset($active) && $active === 'users') ? 'active' : '' ?>">
             <a href="<?= site_url('admin/users'); ?>" class="menu-link">
                 <i class="menu-icon tf-icons bx bxs-user"></i>
