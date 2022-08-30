@@ -1,0 +1,127 @@
+CRITICAL - 2022-07-23 22:45:43 --> Invalid file: users/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users/index', [], true)
+ 3 APPPATH\Controllers\UsersController.php(32): view('users/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-23 23:03:29 --> Invalid file: users/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users/index', [], true)
+ 3 APPPATH\Controllers\UsersController.php(32): view('users/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-23 23:03:31 --> Invalid file: users/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users/index', [], true)
+ 3 APPPATH\Controllers\UsersController.php(32): view('users/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-23 23:03:33 --> Invalid file: users/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users/index', [], true)
+ 3 APPPATH\Controllers\UsersController.php(32): view('users/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-23 23:03:35 --> Invalid file: users/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('users/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('users/index', [], true)
+ 3 APPPATH\Controllers\UsersController.php(32): view('users/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-23 23:04:15 --> Invalid file: layout/master.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/master.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/master', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/users/index', [], true)
+ 4 APPPATH\Controllers\UsersController.php(32): view('admin/users/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-23 23:04:17 --> Invalid file: layout/master.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/master.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/master', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/users/index', [], true)
+ 4 APPPATH\Controllers\UsersController.php(32): view('admin/users/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-23 23:04:18 --> Invalid file: layout/master.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/master.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/master', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/users/index', [], true)
+ 4 APPPATH\Controllers\UsersController.php(32): view('admin/users/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-23 23:06:40 --> Invalid file: layout/master.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/master.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/master', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/users/index', [], true)
+ 4 APPPATH\Controllers\UsersController.php(32): view('admin/users/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-23 23:07:59 --> Invalid file: layout/master.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/master.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/master', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/users/index', [], true)
+ 4 APPPATH\Controllers\UsersController.php(32): view('admin/users/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-23 23:08:35 --> Invalid file: layout/master.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/master.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/master', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/users/index', [], true)
+ 4 APPPATH\Controllers\UsersController.php(32): view('admin/users/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-23 23:10:24 --> Invalid file: layout/master.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/master.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/master', [], true)
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/users/index', [], true)
+ 4 APPPATH\Controllers\UsersController.php(32): view('admin/users/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

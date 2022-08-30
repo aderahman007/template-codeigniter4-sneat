@@ -1,0 +1,94 @@
+CRITICAL - 2022-07-24 01:26:40 --> Undefined variable: sistem
+in APPPATH\Views\admin\users\form_add.php on line 16.
+ 1 APPPATH\Views\admin\users\form_add.php(16): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: sistem', 'APPPATH\\Views\\admin\\users\\form_add.php', 16, [])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users\\form_add.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/users/form_add', [], true)
+ 5 APPPATH\Controllers\UsersController.php(94): view('admin/users/form_add')
+ 6 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 22:07:57 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\UsersController.php on line 174.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 22:08:35 --> Call to a member function getRandomName() on null
+in APPPATH\Controllers\UsersController.php on line 174.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->store()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 22:11:23 --> There is no primary key defined when trying to make insert.
+in SYSTEMPATH\Model.php on line 268.
+ 1 SYSTEMPATH\Model.php(268): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+ 2 SYSTEMPATH\BaseModel.php(738): CodeIgniter\Model->doInsert([...])
+ 3 SYSTEMPATH\Model.php(666): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\UsersController.php(193): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->store()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 22:55:15 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\UsersController.php on line 78.
+ 1 APPPATH\Controllers\UsersController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id', 'APPPATH\\Controllers\\UsersController.php', 78, [...])
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(91): App\Controllers\UsersController->App\Controllers\{closure}(Object(stdClass))
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 APPPATH\Controllers\UsersController.php(86): Hermawan\DataTables\DataTable->toJson(true)
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->datatables()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 22:55:39 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\UsersController.php on line 78.
+ 1 APPPATH\Controllers\UsersController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id', 'APPPATH\\Controllers\\UsersController.php', 78, [...])
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(91): App\Controllers\UsersController->App\Controllers\{closure}(Object(stdClass))
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 APPPATH\Controllers\UsersController.php(86): Hermawan\DataTables\DataTable->toJson(true)
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->datatables()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 22:57:52 --> Undefined property: stdClass::$id
+in APPPATH\Controllers\UsersController.php on line 77.
+ 1 APPPATH\Controllers\UsersController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$id', 'APPPATH\\Controllers\\UsersController.php', 77, [...])
+ 2 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTableQuery.php(91): App\Controllers\UsersController->App\Controllers\{closure}(Object(stdClass))
+ 3 VENDORPATH\hermawan\codeigniter4-datatables\src\DataTable.php(176): Hermawan\DataTables\DataTableQuery->getDataResult()
+ 4 APPPATH\Controllers\UsersController.php(84): Hermawan\DataTables\DataTable->toJson(true)
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->datatables()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 23:31:29 --> Decrypting: authentication failed.
+in SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php on line 98.
+ 1 SYSTEMPATH\Encryption\Handlers\OpenSSLHandler.php(98): CodeIgniter\Encryption\Exceptions\EncryptionException::forAuthenticationFailed()
+ 2 APPPATH\Helpers\general_helper.php(19): CodeIgniter\Encryption\Handlers\OpenSSLHandler->decrypt('ROOTPATH\\public')
+ 3 APPPATH\Controllers\UsersController.php(223): decrypt_url(null)
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->update()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-07-24 23:32:54 --> hex2bin(): Hexadecimal input string must have an even length
+in APPPATH\Helpers\general_helper.php on line 19.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'hex2bin(): Hexadecimal input string must have an even length', 'APPPATH\\Helpers\\general_helper.php', 19, [...])
+ 2 APPPATH\Helpers\general_helper.php(19): hex2bin('3')
+ 3 APPPATH\Views\admin\users\form_edit.php(10): decrypt_url('3')
+ 4 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\admin\\users\\form_edit.php')
+ 5 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/users/form_edit', [], true)
+ 7 APPPATH\Controllers\UsersController.php(213): view('admin/users/form_edit', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\UsersController->edit()
+ 9 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UsersController))
+10 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')

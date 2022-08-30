@@ -1,0 +1,520 @@
+CRITICAL - 2022-08-01 00:00:45 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\layout\admin\navbar.php on line 48.
+ 1 APPPATH\Views\layout\admin\navbar.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\layout\\admin\\navbar.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\admin\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/admin/navbar', null, true)
+ 5 APPPATH\Views\layout\admin\master.php(75): CodeIgniter\View\View->include('layout/admin/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\admin\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/admin/master', [], true)
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/dashboard', [], true)
+10 APPPATH\Controllers\DashboardController.php(16): view('admin/dashboard', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DashboardController->index()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 00:01:03 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\layout\admin\navbar.php on line 48.
+ 1 APPPATH\Views\layout\admin\navbar.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\layout\\admin\\navbar.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\admin\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/admin/navbar', null, true)
+ 5 APPPATH\Views\layout\admin\master.php(75): CodeIgniter\View\View->include('layout/admin/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\admin\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/admin/master', [], true)
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/dashboard', [], true)
+10 APPPATH\Controllers\DashboardController.php(16): view('admin/dashboard', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DashboardController->index()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 00:01:34 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\layout\admin\navbar.php on line 1.
+ 1 APPPATH\Views\layout\admin\navbar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\layout\\admin\\navbar.php', 1, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\admin\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/admin/navbar', null, true)
+ 5 APPPATH\Views\layout\admin\master.php(75): CodeIgniter\View\View->include('layout/admin/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\admin\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/admin/master', [], true)
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/dashboard', [], true)
+10 APPPATH\Controllers\DashboardController.php(16): view('admin/dashboard', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DashboardController->index()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 00:06:49 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\layout\admin\navbar.php on line 48.
+ 1 APPPATH\Views\layout\admin\navbar.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\layout\\admin\\navbar.php', 48, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\admin\\navbar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(429): CodeIgniter\View\View->render('layout/admin/navbar', null, true)
+ 5 APPPATH\Views\layout\admin\master.php(75): CodeIgniter\View\View->include('layout/admin/navbar')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\layout\\admin\\master.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('layout/admin/master', [], true)
+ 9 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('admin/dashboard', [], true)
+10 APPPATH\Controllers\DashboardController.php(16): view('admin/dashboard', [...])
+11 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\DashboardController->index()
+12 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DashboardController))
+13 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 11:53:36 --> strpos() expects parameter 1 to be string, object given
+in SYSTEMPATH\Email\Email.php on line 728.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expects parameter 1 to be string, object given', 'SYSTEMPATH\\Email\\Email.php', 728, [...])
+ 2 SYSTEMPATH\Email\Email.php(728): strpos(Object(CodeIgniter\Email\Email), ',')
+ 3 SYSTEMPATH\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+ 4 APPPATH\Controllers\AuthController.php(227): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 11:54:55 --> strpos() expects parameter 1 to be string, object given
+in SYSTEMPATH\Email\Email.php on line 728.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expects parameter 1 to be string, object given', 'SYSTEMPATH\\Email\\Email.php', 728, [...])
+ 2 SYSTEMPATH\Email\Email.php(728): strpos(Object(CodeIgniter\Email\Email), ',')
+ 3 SYSTEMPATH\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+ 4 APPPATH\Controllers\AuthController.php(227): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 12:00:36 --> strpos() expects parameter 1 to be string, object given
+in SYSTEMPATH\Email\Email.php on line 728.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expects parameter 1 to be string, object given', 'SYSTEMPATH\\Email\\Email.php', 728, [...])
+ 2 SYSTEMPATH\Email\Email.php(728): strpos(Object(CodeIgniter\Email\Email), ',')
+ 3 SYSTEMPATH\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+ 4 APPPATH\Controllers\AuthController.php(227): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 13:04:59 --> strpos() expects parameter 1 to be string, object given
+in SYSTEMPATH\Email\Email.php on line 728.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expects parameter 1 to be string, object given', 'SYSTEMPATH\\Email\\Email.php', 728, [...])
+ 2 SYSTEMPATH\Email\Email.php(728): strpos(Object(CodeIgniter\Email\Email), ',')
+ 3 SYSTEMPATH\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+ 4 APPPATH\Controllers\AuthController.php(228): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 13:09:58 --> strpos() expects parameter 1 to be string, object given
+in SYSTEMPATH\Email\Email.php on line 728.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expects parameter 1 to be string, object given', 'SYSTEMPATH\\Email\\Email.php', 728, [...])
+ 2 SYSTEMPATH\Email\Email.php(728): strpos(Object(CodeIgniter\Email\Email), ',')
+ 3 SYSTEMPATH\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+ 4 APPPATH\Controllers\AuthController.php(228): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 13:15:54 --> strpos() expects parameter 1 to be string, object given
+in SYSTEMPATH\Email\Email.php on line 728.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expects parameter 1 to be string, object given', 'SYSTEMPATH\\Email\\Email.php', 728, [...])
+ 2 SYSTEMPATH\Email\Email.php(728): strpos(Object(CodeIgniter\Email\Email), ',')
+ 3 SYSTEMPATH\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+ 4 APPPATH\Controllers\AuthController.php(228): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 13:16:51 --> Undefined index: email
+in APPPATH\Controllers\AuthController.php on line 228.
+ 1 APPPATH\Controllers\AuthController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'APPPATH\\Controllers\\AuthController.php', 228, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 13:18:04 --> Undefined index: email
+in APPPATH\Controllers\AuthController.php on line 228.
+ 1 APPPATH\Controllers\AuthController.php(228): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'APPPATH\\Controllers\\AuthController.php', 228, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 13:21:36 --> Object of class CodeIgniter\Email\Email could not be converted to string
+in APPPATH\Controllers\AuthController.php on line 229.
+ 1 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 13:22:30 --> strpos() expects parameter 1 to be string, object given
+in SYSTEMPATH\Email\Email.php on line 728.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expects parameter 1 to be string, object given', 'SYSTEMPATH\\Email\\Email.php', 728, [...])
+ 2 SYSTEMPATH\Email\Email.php(728): strpos(Object(CodeIgniter\Email\Email), ',')
+ 3 SYSTEMPATH\Email\Email.php(541): CodeIgniter\Email\Email->stringToArray(Object(CodeIgniter\Email\Email))
+ 4 APPPATH\Controllers\AuthController.php(229): CodeIgniter\Email\Email->setTo(Object(CodeIgniter\Email\Email))
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 13:26:19 --> Undefined index: email
+in APPPATH\Controllers\AuthController.php on line 227.
+ 1 APPPATH\Controllers\AuthController.php(227): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: email', 'APPPATH\\Controllers\\AuthController.php', 227, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 3 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 14:29:31 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AuthController.php(291): CodeIgniter\Model->update('6', [...])
+ 4 APPPATH\Controllers\AuthController.php(226): App\Controllers\AuthController->set_token('6', '608a520f76982d3d9d1e5fed9c33b6cdf01aa5a076657e7dfa6f51e620c69721719f1d87449be0e7bd8f0f048d2d599088f520577d30d09b54adb26dfe97b0647f9dd22f284187b243b5801ff172f26e2e91b93c6612a5e7541169fff301f70b9f093432')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 14:30:04 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AuthController.php(291): CodeIgniter\Model->update('6', [...])
+ 4 APPPATH\Controllers\AuthController.php(226): App\Controllers\AuthController->set_token('6', '079fb621af58b7edbbf7964b2ae6e46c6d9b62fa28919c37dcd9b97dff3a76ad7eff51417b15b5e12f467868f9682d1368a5cd9eb9c986b8b288abaffaf57d10bcf96090f4cacdf8cad97698b3131b626a763d8764cb756fdb2d38c1281722a3e7bf9697')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 14:31:44 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AuthController.php(291): CodeIgniter\Model->update([...], [...])
+ 4 APPPATH\Controllers\AuthController.php(226): App\Controllers\AuthController->set_token('6', '3dbd66eeb06846ed5a5f833f617f9650ff26d4382cda9c823587f4882ad65dde14024076563dd10a929e0a0f53cacbffd9648db344b3dcdd61c5f3098491f5c314623f196a3b2fee81225670380a49b6ab2738294224e5cd476d0e13db505290f4025b74')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 14:31:55 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AuthController.php(291): CodeIgniter\Model->update([...], [...])
+ 4 APPPATH\Controllers\AuthController.php(226): App\Controllers\AuthController->set_token('6', '69dfc16487ab2f96c70700671f3c55a146b5415e6a82e5cef3cba227c0f4c6cfa06a7aa2c05e6bc7881488bd9c220d680934481496cc31481b936356ef3fb1151aed3ae8a26418eae44696b8bda6a3d9d529f0a7e59c11e7a9e73024b5fb2501ac54e5f2')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 14:33:38 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AuthController.php(292): CodeIgniter\Model->update('6', [...])
+ 4 APPPATH\Controllers\AuthController.php(226): App\Controllers\AuthController->set_token('6', 'f2023625f32e76f3267f0a8ed7e009f6ba309d22e6397a1675f81d7c96d0129a310c290a65c956bfcc76a9bbceca59df4a688b29a56e721d1c932af0746c72c2980e3e6a9a1ea19a69d017b54c2f298c7cd861fd15b5b8bad4195de049b02427018f7ab8')
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 14:35:17 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AuthController.php(226): CodeIgniter\Model->update('6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 14:37:09 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 846.
+ 1 SYSTEMPATH\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], [])
+ 3 APPPATH\Controllers\AuthController.php(219): CodeIgniter\Model->update('6', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->forgot()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 15:11:23 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\AuthController.php(309): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->reset_password()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 15:12:24 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1576.
+ 1 SYSTEMPATH\BaseModel.php(1576): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(692): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\AuthController.php(309): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->reset_password()
+ 6 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 15:14:19 --> Invalid file: auth/email_confirm.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/email_confirm.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('auth/email_confirm', [], true)
+ 3 APPPATH\Controllers\AuthController.php(316): view('auth/email_confirm', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->reset_password()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 15:24:26 --> A non well formed numeric value encountered
+in APPPATH\Controllers\AuthController.php on line 315.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'A non well formed numeric value encountered', 'APPPATH\\Controllers\\AuthController.php', 315, [...])
+ 2 APPPATH\Controllers\AuthController.php(315): date('Y-m-d', '2022-08-01 15:24:26')
+ 3 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->reset_password()
+ 4 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 15:54:31 --> Invalid file: welcome_message.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\HomeController.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 16:54:55 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin/maps')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin/maps')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 16:55:00 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 16:55:21 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 16:55:42 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 16:55:45 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 16:55:55 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 16:55:57 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 16:56:13 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 16:56:14 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 16:56:15 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 16:56:16 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 16:56:17 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 16:59:40 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 16:59:46 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 17:00:41 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 17:00:44 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 21:57:41 --> Return value of CodeIgniter\Router\RouteCollection::getFilterForRoute() must be of the type string, array returned
+in SYSTEMPATH\Router\RouteCollection.php on line 1089.
+ 1 SYSTEMPATH\Router\Router.php(188): CodeIgniter\Router\RouteCollection->getFilterForRoute('admin')
+ 2 SYSTEMPATH\CodeIgniter.php(771): CodeIgniter\Router\Router->handle('admin')
+ 3 SYSTEMPATH\CodeIgniter.php(415): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+CRITICAL - 2022-08-01 23:07:59 --> Invalid file: frontend/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('frontend/index.php')
+ 2 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('frontend/index', [], true)
+ 3 APPPATH\Controllers\HomeController.php(9): view('frontend/index')
+ 4 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\HomeController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-01 23:10:59 --> Error connecting to the database: Unknown database 'db_template_sneat'
+CRITICAL - 2022-08-01 23:10:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_template_sneat'
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manajemen_sistem`', [], false)
+ 3 APPPATH\Helpers\general_helper.php(6): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Views\auth\login.php(30): sistem()
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\auth\\login.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('auth/login', [], true)
+ 8 APPPATH\Controllers\AuthController.php(28): view('auth/login', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-01 23:11:04 --> Error connecting to the database: Unknown database 'db_template_sneat'
+CRITICAL - 2022-08-01 23:11:04 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_template_sneat'
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manajemen_sistem`', [], false)
+ 3 APPPATH\Helpers\general_helper.php(6): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Views\auth\login.php(30): sistem()
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\auth\\login.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('auth/login', [], true)
+ 8 APPPATH\Controllers\AuthController.php(28): view('auth/login', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-01 23:11:34 --> Error connecting to the database: Unknown database 'db_template_sneat'
+CRITICAL - 2022-08-01 23:11:34 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_template_sneat'
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manajemen_sistem`', [], false)
+ 3 APPPATH\Helpers\general_helper.php(6): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Views\auth\login.php(30): sistem()
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\auth\\login.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('auth/login', [], true)
+ 8 APPPATH\Controllers\AuthController.php(28): view('auth/login', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
+ERROR - 2022-08-01 23:21:06 --> Error connecting to the database: Unknown database 'db_template_sneat'
+CRITICAL - 2022-08-01 23:21:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'db_template_sneat'
+in SYSTEMPATH\Database\BaseConnection.php on line 416.
+ 1 SYSTEMPATH\Database\BaseConnection.php(586): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `manajemen_sistem`', [], false)
+ 3 APPPATH\Helpers\general_helper.php(6): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Views\auth\login.php(30): sistem()
+ 5 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\auth\\login.php')
+ 6 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('auth/login', [], true)
+ 8 APPPATH\Controllers\AuthController.php(28): view('auth/login', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(896): App\Controllers\AuthController->index()
+10 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+11 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(55): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(43): require_once('FCPATH\\index.php')
