@@ -4,10 +4,7 @@ namespace App\Controllers;
 
 use App\Controllers\BaseController;
 use App\Models\UsersModel;
-<<<<<<< HEAD
 use App\Libraries\SendMail;
-=======
->>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
 
 class AuthController extends BaseController
 {
@@ -15,10 +12,7 @@ class AuthController extends BaseController
     protected $validation;
     protected $db;
     protected $usersModel;
-<<<<<<< HEAD
     protected $sendMail;
-=======
->>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
 
     public function __construct()
     {
@@ -200,11 +194,8 @@ class AuthController extends BaseController
     public function forgot()
     {
         if ($this->request->isAJAX()) {
-<<<<<<< HEAD
             $this->sendMail = new SendMail();
 
-=======
->>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
             $validasi = $this->validate([
                 'email' => [
                     'rules' => 'required|valid_email',
@@ -237,7 +228,6 @@ class AuthController extends BaseController
                             'nama'  => sistem()->nama,
                         ];
                         $message    = view('auth/email_reset', $data);
-<<<<<<< HEAD
                         $from = sistem()->email;
                         $name = sistem()->nama . ' | Customer Service';
                         $to = $user['email'];
@@ -246,16 +236,6 @@ class AuthController extends BaseController
                         $send_email = $this->sendMail->send_mail($from, $name, $to, $subject, $message);
     
                         if ($send_email == true) {
-=======
-
-                        $email      = \config\Services::email();
-                        $email->setTo($user['email']);
-                        $email->setFrom(sistem()->email, sistem()->nama . ' | Customer Service');
-                        $email->setSubject(sistem()->nama . ' | Forgot Your Password?');
-                        $email->setMessage($message);
-    
-                        if ($email->send()) {
->>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
                             $msg = [
                                 'status'    => 200,
                                 'message'   => 'Email has been sended and active until 60 minute! Please check your email or your spam!',
@@ -263,11 +243,7 @@ class AuthController extends BaseController
                         }else {
                             $msg = [
                                 'status' => 500,
-<<<<<<< HEAD
                                 'message' => $send_email
-=======
-                                'message' => 'Email couldn`t be send!'
->>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
                             ];
                         }
                     }else {

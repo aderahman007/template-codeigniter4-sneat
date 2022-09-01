@@ -1,9 +1,5 @@
 $(document).ready(function () {
   loadData();
-<<<<<<< HEAD
-=======
-  change_password();
->>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
 });
 
 function readURLLogo(input) {
@@ -164,7 +160,6 @@ function store() {
           $("#email").removeClass("is-invalid");
           $("#error_email").html("");
         }
-<<<<<<< HEAD
         if (response.error.telepon) {
           $("#telepon").addClass("is-invalid");
           $("#error_telepon").html(response.error.telepon);
@@ -172,8 +167,6 @@ function store() {
           $("#telepon").removeClass("is-invalid");
           $("#error_telepon").html("");
         }
-=======
->>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
         if (response.error.password) {
           $("#password").addClass("is-invalid");
           $("#error_password").html(response.error.password);
@@ -315,7 +308,6 @@ function update() {
           $("#email").removeClass("is-invalid");
           $("#error_email").html("");
         }
-<<<<<<< HEAD
         if (response.error.telepon) {
           $("#telepon").addClass("is-invalid");
           $("#error_telepon").html(response.error.telepon);
@@ -323,8 +315,6 @@ function update() {
           $("#telepon").removeClass("is-invalid");
           $("#error_telepon").html("");
         }
-=======
->>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
         if (response.error.password) {
           $("#password").addClass("is-invalid");
           $("#error_password").html(response.error.password);

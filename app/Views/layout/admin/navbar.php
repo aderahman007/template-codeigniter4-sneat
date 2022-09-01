@@ -22,7 +22,7 @@
             <li class="nav-item navbar-dropdown dropdown-user dropdown">
                 <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
                     <div class="avatar avatar-online">
-                        <img src="<?= base_url() ?>/assets/admin/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                        <img src="<?= base_url('writable/images/profile/' . (session()->get('foto') ? session()->get('foto') : '')) ?>" alt class="w-px-40 h-100 rounded-circle" />
                     </div>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-end">
@@ -31,12 +31,12 @@
                             <div class="d-flex">
                                 <div class="flex-shrink-0 me-3">
                                     <div class="avatar avatar-online">
-                                        <img src="<?= base_url() ?>/assets/admin/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                                        <img src="<?= base_url('writable/images/profile/' . (session()->get('foto') ? session()->get('foto') : '')) ?>" alt class="w-px-40 h-100 rounded-circle" />
                                     </div>
                                 </div>
                                 <div class="flex-grow-1">
-                                    <span class="fw-semibold d-block">John Doe</span>
-                                    <small class="text-muted">Admin</small>
+                                    <span class="fw-semibold d-block"><?= (session()->get('nama') ? ucfirst(session()->get('nama')) : ''); ?></span>
+                                    <small class="text-muted"><?= (session()->get('hak_akses') ? ucfirst(session()->get('hak_akses')) : ''); ?></small>
                                 </div>
                             </div>
                         </a>
@@ -45,7 +45,7 @@
                         <div class="dropdown-divider"></div>
                     </li>
                     <li>
-                        <a class="dropdown-item" href="javascript::void(0)" <?= (session()->id != null) ? 'onclick="detail("'. session()->id .'")"' : '' ; ?>>
+                        <a class="dropdown-item" href="javascript::void(0)" <?= (session()->id != null) ? 'onclick="detail("' . session()->id . '")"' : ''; ?>>
                             <i class="bx bx-user me-2"></i>
                             <span class="align-middle">Akun Saya</span>
                         </a>

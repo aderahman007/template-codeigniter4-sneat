@@ -124,11 +124,7 @@ function encrypt_url(kode) {
   var hasil;
   $.ajax({
     type: "post",
-<<<<<<< HEAD
     url: site_url + "/encrypt_url",
-=======
-    url: site_url + "/Dashboard/encrypt_url",
->>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
     data: { kode: kode },
     async: false,
     dataType: "json",
@@ -144,11 +140,7 @@ function decrypt_url(kode) {
   var hasil;
   $.ajax({
     type: "post",
-<<<<<<< HEAD
     url: site_url + "/decrypt_url",
-=======
-    url: site_url + "/Dashboard/decrypt_url",
->>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
     data: { kode: kode },
     async: false,
     dataType: "json",

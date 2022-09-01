@@ -50,7 +50,6 @@
                         </div>
                     </div>
                     <div class="row mb-2">
-<<<<<<< HEAD
                         <label class="col-sm-2 col-form-label" for="telepon">Telepon</label>
                         <div class="col-sm-10">
                             <input type="telepon" class="form-control form-control-sm" name="telepon" id="telepon" placeholder="Telepon" onkeypress="return hanyaAngka(event)" />
@@ -58,8 +57,6 @@
                         </div>
                     </div>
                     <div class="row mb-2">
-=======
->>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
                         <label class="col-sm-2 col-form-label" for="password">Password</label>
                         <div class="col-sm-10">
                             <input type="password" class="form-control form-control-sm" name="password" id="password" placeholder="***********" />

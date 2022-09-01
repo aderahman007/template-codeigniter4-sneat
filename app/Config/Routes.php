@@ -43,11 +43,8 @@ $routes->set404Override();
  * Filter isAdmin (filter untuk cek hak akses user, kalau admin di perbolehkan akses admin, kalau bukan tendang ke halaman home)
  */
 
-<<<<<<< HEAD
 $routes->post('encrypt_url', 'GeneralController::encrypt_url');
 $routes->post('decrypt_url', 'GeneralController::decrypt_url');
-=======
->>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
 
 $routes->group('', function ($routes) {
     $routes->get('/', 'AuthController::index');

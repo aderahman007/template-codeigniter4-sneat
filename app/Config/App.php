@@ -359,11 +359,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-<<<<<<< HEAD
     public $CSRFTokenName = 'csrf_wo';
-=======
-    public $CSRFTokenName = 'csrf_gis_pesawaran';
->>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
 
     /**
      * --------------------------------------------------------------------------
@@ -389,11 +385,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-<<<<<<< HEAD
     public $CSRFCookieName = 'csrf_cookie_wo';
-=======
-    public $CSRFCookieName = 'csrf_cookie_gis_pesawaran';
->>>>>>> 4d88ee4a47cab338d56cbb24151a8225a9707f33
 
     /**
      * --------------------------------------------------------------------------
